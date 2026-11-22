@@ -1,0 +1,17 @@
+[2026-11-22T10:38:15Z] === ENRICH ITERATION 1 START | repo=near/near-abi-rs sha=081a41c2 ===
+[2026-11-22T10:38:15Z] [iter=1] PHASE START: enrich repo=near/near-abi-rs sha=081a41c2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/081a41c2-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/081a41c28ed20fd838299c0b5dfb2480659ef340.nq.gz
+[2026-11-22T10:38:15Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T10:38:18Z] [iter=1] AST store loaded triples=35237 load_secs=4 mem_mb=129 MB
+[2026-11-22T10:38:18Z] [iter=1] Step 2: Finding LSP targets mem_mb=129 MB
+[2026-11-22T10:38:18Z] [iter=1] LSP targets found call_sites=297 imports=13 extends=0 implements=0 secs=0
+[2026-11-22T10:38:18Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=129 MB
+[2026-11-22T10:38:18Z] [iter=1] Position index built positions=2440 nodes_with_types=2969 secs=0 mem_mb=129 MB
+[2026-11-22T10:38:18Z] [iter=1] Step 3: Starting LSP resolution mem_mb=129 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T10:38:18Z] [iter=1] Resolving target type target_type=call_site count=297
+[2026-11-22T10:38:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=3 resolved=234 errors=0 current=.github/check_metaschema_compatibility.py
+[2026-11-22T10:38:48Z] [iter=1] Target type resolved target_type=call_site resolved=252 errors=0 secs=29 mem_mb=129 MB
+[2026-11-22T10:38:48Z] [iter=1] Resolving target type target_type=import_statement count=13
+[2026-11-22T10:38:56Z] [iter=1] Target type resolved target_type=import_statement resolved=11 errors=0 secs=8 mem_mb=129 MB
+[2026-11-22T10:39:04Z] [iter=1] Step 5: Writing final enrichment file triples=3259
+[2026-11-22T10:39:04Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/081a41c28ed20fd838299c0b5dfb2480659ef340.nq.gz size_kb=53
+[2026-11-22T10:39:04Z] [iter=1] PHASE END: enrich elapsed_s=50 elapsed_min=0.8 total_triples=3259
