@@ -1,0 +1,34 @@
+{
+  "manifest_version": "1.0",
+  "org": "near",
+  "repo": "near-abi-rs",
+  "versions": [
+    {
+      "commit": "081a41c28ed20fd838299c0b5dfb2480659ef340",
+      "parsed_at": "2026-11-22T10:34:32.695702+00:00",
+      "tag": "v0.3.0",
+      "filetree": "filetree/081a41c28ed20fd838299c0b5dfb2480659ef340.nq.gz",
+      "blobs": [
+        "blob/0bc9597f87ed82ea20c41f0cd7d81a465186233c.nq.gz",
+        "blob/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64.nq.gz",
+        "blob/8d35e303dd3081c78967fe2436002da219629cef.nq.gz",
+        "blob/54fa3c217873cb7a600a65f2a799a990998d26d7.nq.gz",
+        "blob/c1e29a11a66c1331e6ef196322f3abcae37d8dc8.nq.gz",
+        "blob/2664791bf48b02967eaf57908201966b2dc3b17b.nq.gz",
+        "blob/75daeee19f20c89fb32441432b2fb4042255f1dd.nq.gz",
+        "blob/3ed0516317325f34fe30d6984578a7c829e12b4b.nq.gz",
+        "blob/4fffb2f89cbd8f2169ce9914bd16bd43785bb368.nq.gz",
+        "blob/85e4101a7652d8feb9b5717056fa117e454c62eb.nq.gz",
+        "blob/c25d0c9d2354d1ce6d3b1df7dd4f4da3930e84ca.nq.gz",
+        "blob/06bcfe6204c6be366bd289e1e5bba3d66adcf536.nq.gz",
+        "blob/8b516e84cca688002ae4115ed8f734982d1ea650.nq.gz",
+        "blob/a99a8d273921c2d77242c2a1927f87820e3eda9b.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
