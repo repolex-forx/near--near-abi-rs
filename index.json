@@ -1,0 +1,11 @@
+{
+  "org": "near",
+  "repo": "near-abi-rs",
+  "versions": [
+    {
+      "commit": "081a41c28ed20fd838299c0b5dfb2480659ef340",
+      "tag": "v0.3.0",
+      "parsed_at": "2026-11-22T10:41:23.386491+00:00"
+    }
+  ]
+}
